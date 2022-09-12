@@ -1,0 +1,98 @@
+.navbar{
+    width:100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.logo-img{
+    margin-left: 20px;
+    width: 10%;
+}
+.menu{
+    margin-right: 20px;
+    display: none;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 150px;
+}
+.active{
+    list-style: none;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 150px;
+}
+.nav-links{
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 500;
+    transition: all ease-in-out 0.5s;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav-links:hover{
+    color: red;
+}
+
+
+@media screen and (max-width:760px){
+    .logo-img{
+        margin-left: 20px;
+        width: 50%;
+    }
+    .nav-list{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 150px;
+        position: absolute;
+        top: 6vh;
+        height: 94vh;
+        transform: translateX(100%);
+        transition: all ease-in 0.5s ;
+    }
+    .active{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 150px;
+        margin-top: 16px;
+        position: absolute;
+        top: 6vh;
+        height: 90vh;
+        transform: translateX(0);
+        transition: all ease-in 0.5s ;
+        background-color: rgb(26, 61, 61,0.4);
+        z-index: 100;
+    }
+    .nav-links{
+        font-size: 30px;
+        font-family: poppins;
+        font-weight: 500;
+        transition: all ease-in-out 0.5s;
+        color: white;
+        font-weight: 500;
+    }
+    .nav-links:hover{
+        color: red;
+    }
+    .menu{
+        font-size: 30px;
+        display: block;
+        cursor: pointer;
+    }
+}
