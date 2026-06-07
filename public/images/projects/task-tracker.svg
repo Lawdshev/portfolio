@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#faf5ff"/>
+  <rect x="40" y="40" width="720" height="520" rx="16" fill="#fff" stroke="#e2e8f0"/>
+  <rect x="80" y="80" width="200" height="400" rx="8" fill="#f3e8ff"/>
+  <rect x="300" y="80" width="200" height="120" rx="8" fill="#faf5ff" stroke="#e9d5ff"/>
+  <rect x="520" y="80" width="200" height="120" rx="8" fill="#faf5ff" stroke="#e9d5ff"/>
+  <rect x="300" y="220" width="200" height="120" rx="8" fill="#faf5ff" stroke="#e9d5ff"/>
+  <rect x="520" y="220" width="200" height="120" rx="8" fill="#faf5ff" stroke="#e9d5ff"/>
+  <text x="400" y="520" text-anchor="middle" fill="#9333ea" font-family="system-ui,sans-serif" font-size="20" font-weight="600">Task Tracker</text>
+</svg>

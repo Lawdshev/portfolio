@@ -1,0 +1,164 @@
+{
+  "profile": {
+    "name": "Okunade Sherif",
+    "position": "Frontend Developer",
+    "positionHighlight": "Frontend",
+    "headline": "I build scalable web applications with clean code and great user experience. Passionate about turning ideas into products that make a difference.",
+    "greeting": "Hello there, I'm",
+    "aboutMeHeader": "A problem solver who loves building.",
+    "aboutMeContent": "I'm a passionate full-stack developer with a love for creating elegant solutions to complex problems. With expertise in modern web technologies, I focus on writing clean, maintainable code that scales.\n\nWhen I'm not coding, you'll find me exploring new technologies, contributing to open source, or sharing knowledge with the developer community.",
+    "cvFileUrl": "/cv/resume.pdf",
+    "profileImage": "/images/IMG_0760.jpeg",
+    "social": {
+      "github": "https://github.com/lawdshev",
+      "linkedin": "https://www.linkedin.com/in/sherif-okunade-526896229/",
+      "twitter": "https://twitter.com",
+      "email": "o.d.Alsherif@gmail.com"
+    },
+    "heroBadges": [
+      {
+        "text": "5+ Years Building & Innovating",
+        "icon": "none",
+        "position": "top-left"
+      },
+      {
+        "text": "Passionate about building products people love",
+        "icon": "rocket",
+        "position": "middle-right"
+      },
+      {
+        "text": "Clean Code: Scalable, Maintainable, Efficient",
+        "icon": "code",
+        "position": "bottom-left"
+      }
+    ]
+  },
+  "technologies": [
+    { "id": "1", "name": "React", "icon": "/images/tech/react.svg" },
+    { "id": "2", "name": "Next.js", "icon": "/images/tech/nextjs.svg" },
+    { "id": "3", "name": "TypeScript", "icon": "/images/tech/typescript.svg" },
+    { "id": "4", "name": "Node.js", "icon": "/images/tech/nodejs.svg" },
+    { "id": "5", "name": "Tailwind CSS", "icon": "/images/tech/tailwindcss.svg" },
+    { "id": "6", "name": "PostgreSQL", "icon": "/images/tech/postgresql.svg" },
+    { "id": "7", "name": "MongoDB", "icon": "/images/tech/mongodb.svg" },
+    { "id": "8", "name": "Convex", "icon": "/images/tech/convex.svg" }
+  ],
+  "stats": [
+    {
+      "value": "5+",
+      "label": "Projects Completed",
+      "icon": "rocket"
+    },
+    {
+      "value": "10K+",
+      "label": "Lines of Code",
+      "icon": "code"
+    },
+    {
+      "value": "200+",
+      "label": "Hours of Building",
+      "icon": "clock"
+    },
+    {
+      "value": "100%",
+      "label": "Commitment",
+      "icon": "user"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Notes Manager",
+      "description": "A full-featured note-taking app with real-time sync, rich text editing, and organization tools.",
+      "image": "/images/projects/notes-manager.svg",
+      "tags": [
+        "Next.js",
+        "Convex",
+        "Tailwind CSS"
+      ],
+      "demoUrl": "https://example.com",
+      "githubUrl": "https://github.com"
+    },
+    {
+      "id": "2",
+      "title": "Chat App",
+      "description": "Real-time messaging platform with rooms, direct messages, and online presence indicators.",
+      "image": "/images/projects/chat-app.svg",
+      "tags": [
+        "React",
+        "Socket.io",
+        "Node.js"
+      ],
+      "demoUrl": "https://example.com",
+      "githubUrl": "https://github.com"
+    },
+    {
+      "id": "3",
+      "title": "E-Commerce Store",
+      "description": "Modern online store with product catalog, cart, checkout, and admin dashboard.",
+      "image": "/images/projects/ecommerce.svg",
+      "tags": [
+        "Next.js",
+        "Stripe",
+        "PostgreSQL"
+      ],
+      "demoUrl": "https://example.com",
+      "githubUrl": "https://github.com"
+    },
+    {
+      "id": "4",
+      "title": "Task Tracker",
+      "description": "Project management tool with kanban boards, task assignments, and progress tracking.",
+      "image": "/images/projects/task-tracker.svg",
+      "tags": [
+        "React",
+        "TypeScript",
+        "MongoDB"
+      ],
+      "demoUrl": "https://example.com",
+      "githubUrl": "https://github.com"
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "category": "Frontend",
+      "items": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "id": "2",
+      "category": "Backend",
+      "items": [
+        "Node.js",
+        "Express",
+        "Convex",
+        "Socket.io"
+      ]
+    },
+    {
+      "id": "3",
+      "category": "Database",
+      "items": [
+        "PostgreSQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": "4",
+      "category": "Tools",
+      "items": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Postman",
+        "Figma"
+      ]
+    }
+  ],
+  "experience": []
+}

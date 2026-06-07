@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0fdf4"/>
+  <rect x="40" y="40" width="720" height="520" rx="16" fill="#fff" stroke="#e2e8f0"/>
+  <rect x="80" y="80" width="280" height="360" rx="12" fill="#ecfdf5"/>
+  <rect x="380" y="80" width="340" height="80" rx="8" fill="#f1f5f9"/>
+  <rect x="380" y="180" width="340" height="80" rx="8" fill="#f1f5f9"/>
+  <rect x="380" y="280" width="340" height="80" rx="8" fill="#f1f5f9"/>
+  <text x="400" y="480" text-anchor="middle" fill="#059669" font-family="system-ui,sans-serif" font-size="20" font-weight="600">Chat App</text>
+</svg>

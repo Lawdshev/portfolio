@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f8fafc"/>
+  <rect x="40" y="40" width="720" height="520" rx="16" fill="#fff" stroke="#e2e8f0"/>
+  <rect x="80" y="80" width="200" height="24" rx="4" fill="#e0e7ff"/>
+  <rect x="80" y="120" width="640" height="12" rx="4" fill="#f1f5f9"/>
+  <rect x="80" y="144" width="580" height="12" rx="4" fill="#f1f5f9"/>
+  <rect x="80" y="200" width="300" height="200" rx="8" fill="#eef2ff"/>
+  <rect x="400" y="200" width="320" height="200" rx="8" fill="#eef2ff"/>
+  <text x="400" y="480" text-anchor="middle" fill="#6366f1" font-family="system-ui,sans-serif" font-size="20" font-weight="600">Notes Manager</text>
+</svg>
