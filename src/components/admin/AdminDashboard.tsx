@@ -420,6 +420,30 @@ function ProfileEditor({
           </Field>
         </div>
         <div className="sm:col-span-2">
+          <p className="mb-2 text-sm font-semibold text-slate-900">Site SEO</p>
+        </div>
+        <div className="sm:col-span-2">
+          <Field label="Browser Tab Title">
+            <input
+              className={inputClass}
+              value={p.siteTitle}
+              onChange={(e) => updateProfile("siteTitle", e.target.value)}
+              placeholder="Your Name | Role"
+            />
+          </Field>
+        </div>
+        <div className="sm:col-span-2">
+          <Field label="Meta Description">
+            <textarea
+              className={inputClass}
+              rows={2}
+              value={p.siteDescription}
+              onChange={(e) => updateProfile("siteDescription", e.target.value)}
+              placeholder="Short description for search engines and link previews"
+            />
+          </Field>
+        </div>
+        <div className="sm:col-span-2">
           <Field label="About Me Header">
             <input
               className={inputClass}

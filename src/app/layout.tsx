@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import { SmoothScrollProvider } from "@/components/animations/SmoothScrollProvider";
 import MagneticButtons from "@/components/animations/MagneticButtons";
+import { getPortfolioData } from "@/lib/data";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -9,10 +10,15 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Ayodeji Daniel | Full-Stack Developer",
-  description: "Portfolio of Ayodeji Daniel - Full-Stack Developer",
-};
+export const dynamic = "force-dynamic";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const data = await getPortfolioData();
+  return {
+    title: data.profile.siteTitle,
+    description: data.profile.siteDescription,
+  };
+}
 
 export default function RootLayout({
   children,

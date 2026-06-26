@@ -35,6 +35,8 @@ export interface Profile {
   aboutMeContent: string;
   cvFileUrl: string;
   profileImage: string;
+  siteTitle: string;
+  siteDescription: string;
   social: SocialLinks;
   heroBadges: HeroBadge[];
 }

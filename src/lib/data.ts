@@ -1,5 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
+import { normalizeProfile } from "@/lib/profile";
 import { normalizeTechnologies } from "@/lib/technologies";
 import type { PortfolioData } from "@/types/portfolio";
 
@@ -10,6 +11,7 @@ export async function getPortfolioData(): Promise<PortfolioData> {
   const data = JSON.parse(raw) as PortfolioData;
   return {
     ...data,
+    profile: normalizeProfile(data.profile),
     technologies: normalizeTechnologies(data.technologies),
   };
 }

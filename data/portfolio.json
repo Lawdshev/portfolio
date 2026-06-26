@@ -9,6 +9,8 @@
     "aboutMeContent": "I'm a passionate full-stack developer with a love for creating elegant solutions to complex problems. With expertise in modern web technologies, I focus on writing clean, maintainable code that scales.\n\nWhen I'm not coding, you'll find me exploring new technologies, contributing to open source, or sharing knowledge with the developer community.",
     "cvFileUrl": "/cv/resume.pdf",
     "profileImage": "/images/IMG_0760.jpeg",
+    "siteTitle": "Okunade Sherif | Frontend Developer",
+    "siteDescription": "Portfolio of Okunade Sherif - Frontend Developer",
     "social": {
       "github": "https://github.com/lawdshev",
       "linkedin": "https://www.linkedin.com/in/sherif-okunade-526896229/",
@@ -45,7 +47,7 @@
   ],
   "stats": [
     {
-      "value": "5+",
+      "value": "20+",
       "label": "Projects Completed",
       "icon": "rocket"
     },
@@ -68,55 +70,183 @@
   "projects": [
     {
       "id": "1",
-      "title": "Notes Manager",
-      "description": "A full-featured note-taking app with real-time sync, rich text editing, and organization tools.",
-      "image": "/images/projects/notes-manager.svg",
-      "tags": [
-        "Next.js",
-        "Convex",
-        "Tailwind CSS"
-      ],
-      "demoUrl": "https://example.com",
-      "githubUrl": "https://github.com"
+      "title": "Case Manager",
+      "description": "Legal case management platform for Law Pavilion — track cases, documents, and workflows in one place.",
+      "image": "/images/projects/case-manager.png",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://moj.lawpavilion.com/",
+      "githubUrl": ""
     },
     {
       "id": "2",
-      "title": "Chat App",
-      "description": "Real-time messaging platform with rooms, direct messages, and online presence indicators.",
-      "image": "/images/projects/chat-app.svg",
-      "tags": [
-        "React",
-        "Socket.io",
-        "Node.js"
-      ],
-      "demoUrl": "https://example.com",
-      "githubUrl": "https://github.com"
+      "title": "NBA E-stamp",
+      "description": "Digital e-stamping platform for the Nigerian Bar Association.",
+      "image": "/images/projects/nba-e-stamp.png",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://estamp.nigerianbar.org.ng/",
+      "githubUrl": ""
     },
     {
       "id": "3",
-      "title": "E-Commerce Store",
-      "description": "Modern online store with product catalog, cart, checkout, and admin dashboard.",
-      "image": "/images/projects/ecommerce.svg",
-      "tags": [
-        "Next.js",
-        "Stripe",
-        "PostgreSQL"
-      ],
-      "demoUrl": "https://example.com",
-      "githubUrl": "https://github.com"
+      "title": "MoneyHQ",
+      "description": "Personal finance and money management web application.",
+      "image": "/images/projects/money-hq.jpeg",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://money-hq-shev.vercel.app/",
+      "githubUrl": ""
     },
     {
       "id": "4",
-      "title": "Task Tracker",
-      "description": "Project management tool with kanban boards, task assignments, and progress tracking.",
-      "image": "/images/projects/task-tracker.svg",
-      "tags": [
-        "React",
-        "TypeScript",
-        "MongoDB"
-      ],
-      "demoUrl": "https://example.com",
-      "githubUrl": "https://github.com"
+      "title": "Wardboard",
+      "description": "Sports coaching and team management platform for athletes and coaches.",
+      "image": "/images/projects/wardboard.jpg",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://wardbord.com/",
+      "githubUrl": ""
+    },
+    {
+      "id": "5",
+      "title": "Street Food",
+      "description": "Food discovery and ordering platform for street food vendors and customers.",
+      "image": "/images/projects/street-food.jpeg",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://street-food-eight.vercel.app/",
+      "githubUrl": ""
+    },
+    {
+      "id": "6",
+      "title": "Approve-it",
+      "description": "Workflow approval tool for managing requests and sign-offs.",
+      "image": "/images/projects/approve-it.png",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://approve-it.netlify.app/",
+      "githubUrl": ""
+    },
+    {
+      "id": "7",
+      "title": "Accountable",
+      "description": "Accounting and financial tracking application.",
+      "image": "/images/projects/accountable.jpeg",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://accountable-sepia.vercel.app/",
+      "githubUrl": ""
+    },
+    {
+      "id": "8",
+      "title": "P&G",
+      "description": "Brand campaign landing page built for Procter & Gamble.",
+      "image": "/images/projects/pg.png",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://super-pavlova-0ce678.netlify.app/",
+      "githubUrl": ""
+    },
+    {
+      "id": "9",
+      "title": "Examinator",
+      "description": "AI-powered examination and assessment platform.",
+      "image": "/images/projects/examinator.jpeg",
+      "tags": ["React", "JavaScript", "AI"],
+      "demoUrl": "https://examinator-ai.vercel.app/",
+      "githubUrl": ""
+    },
+    {
+      "id": "10",
+      "title": "Vatdoc",
+      "description": "VAT documentation and compliance management tool.",
+      "image": "/images/projects/vatdoc.png",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://vatdoc.netlify.app/",
+      "githubUrl": "https://github.com/Lawdshev/Vatdoc"
+    },
+    {
+      "id": "11",
+      "title": "Verifier",
+      "description": "Document and identity verification web application.",
+      "image": "/images/projects/verifier.png",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://everifyer.netlify.app/",
+      "githubUrl": "https://github.com/Lawdshev/Everifyer"
+    },
+    {
+      "id": "12",
+      "title": "Itemify",
+      "description": "Inventory and item management application.",
+      "image": "/images/projects/itemify.png",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://itemify.netlify.app/",
+      "githubUrl": "https://github.com/Lawdshev/Itemify"
+    },
+    {
+      "id": "13",
+      "title": "Shoklin",
+      "description": "E-commerce and retail platform for online shopping.",
+      "image": "/images/projects/shoklin.png",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://shoklin.onrender.com",
+      "githubUrl": "https://github.com/Lawdshev/shoklin"
+    },
+    {
+      "id": "14",
+      "title": "Apple Store Clone",
+      "description": "Apple product showcase and store UI clone built with React.",
+      "image": "/images/projects/apple-store.png",
+      "tags": ["React", "JavaScript", "CSS"],
+      "demoUrl": "https://majestic-gelato-78453c.netlify.app/",
+      "githubUrl": "https://github.com/Lawdshev/Apple"
+    },
+    {
+      "id": "15",
+      "title": "Alicia University",
+      "description": "University website with course information and campus resources.",
+      "image": "/images/projects/alicia-university.png",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://aliciauniversity.netlify.app",
+      "githubUrl": "https://github.com/Lawdshev/Alicia-University"
+    },
+    {
+      "id": "16",
+      "title": "Vividioz",
+      "description": "Video streaming and media platform.",
+      "image": "/images/projects/vividioz.png",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://vividioz.onrender.com/",
+      "githubUrl": "https://github.com/rash1234567/NEWVIVIDIO"
+    },
+    {
+      "id": "17",
+      "title": "Adserve",
+      "description": "Advertising and campaign management dashboard.",
+      "image": "/images/projects/adserve.png",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://adserve.netlify.app/",
+      "githubUrl": "https://github.com/Lawdshev/adserve"
+    },
+    {
+      "id": "18",
+      "title": "AppraiseMe",
+      "description": "Employee performance appraisal and feedback tool.",
+      "image": "/images/projects/appraiseme.png",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://appraiseMe.netlify.app/",
+      "githubUrl": "https://github.com/Lawdshev/appraise"
+    },
+    {
+      "id": "19",
+      "title": "CountriesQQ",
+      "description": "Interactive countries explorer with flags, data, and search.",
+      "image": "/images/projects/countriesqq.png",
+      "tags": ["React", "JavaScript", "API"],
+      "demoUrl": "https://countriesQQ.onrender.com",
+      "githubUrl": "https://github.com/Lawdshev/vatebra_test"
+    },
+    {
+      "id": "20",
+      "title": "Unshelled",
+      "description": "Full-stack web application with a modern React frontend.",
+      "image": "/images/projects/unshelled.png",
+      "tags": ["React", "JavaScript"],
+      "demoUrl": "https://unshelled-client.onrender.com/",
+      "githubUrl": "https://github.com/Lawdshev/unshelled-frontend"
     }
   ],
   "skills": [
