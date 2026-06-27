@@ -1,14 +1,15 @@
 "use client";
 
-import { useRef, type MouseEvent } from "react";
+import { useRef, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { useGSAP } from "@gsap/react";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { GitHubIcon } from "@/components/icons/SocialIcons";
 import Reveal, { StaggerReveal } from "@/components/animations/Reveal";
 import { gsap, prefersReducedMotion, registerGsapPlugins } from "@/lib/animations/gsap-config";
 import type { Project } from "@/types/portfolio";
+
+const INITIAL_PROJECT_COUNT = 8;
 
 function ProjectCard({ project }: { project: Project }) {
   const cardRef = useRef<HTMLElement>(null);
@@ -112,6 +113,10 @@ function ProjectCard({ project }: { project: Project }) {
 }
 
 export default function Projects({ projects }: { projects: Project[] }) {
+  const [showAll, setShowAll] = useState(false);
+  const hasMore = projects.length > INITIAL_PROJECT_COUNT;
+  const visibleProjects = showAll ? projects : projects.slice(0, INITIAL_PROJECT_COUNT);
+
   return (
     <section id="projects" className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
       <Reveal className="mb-12 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between" variant="clip">
@@ -119,20 +124,36 @@ export default function Projects({ projects }: { projects: Project[] }) {
           <p className="text-sm font-semibold text-indigo-600">FEATURED PROJECTS</p>
           <h2 className="mt-1 text-3xl font-bold text-slate-900 sm:text-4xl">Things I&apos;ve Built</h2>
         </div>
-        <Link
-          href="#projects"
-          className="inline-flex items-center gap-1 text-sm font-medium text-indigo-600 hover:text-indigo-700"
-        >
-          View all projects
-          <ArrowRight className="h-4 w-4" />
-        </Link>
+        {hasMore && (
+          <button
+            type="button"
+            onClick={() => setShowAll((prev) => !prev)}
+            className="magnetic-btn inline-flex items-center gap-1 text-sm font-medium text-indigo-600 transition hover:text-indigo-700"
+          >
+            {showAll ? "Show less" : "View all projects"}
+            <ArrowRight className={`h-4 w-4 transition-transform ${showAll ? "rotate-90" : ""}`} />
+          </button>
+        )}
       </Reveal>
 
       <StaggerReveal className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {projects.map((project) => (
+        {visibleProjects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
       </StaggerReveal>
+
+      {hasMore && !showAll && (
+        <div className="mt-10 flex justify-center">
+          <button
+            type="button"
+            onClick={() => setShowAll(true)}
+            className="magnetic-btn inline-flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-indigo-200 hover:text-indigo-600"
+          >
+            View all {projects.length} projects
+            <ArrowRight className="h-4 w-4" />
+          </button>
+        </div>
+      )}
     </section>
   );
 }

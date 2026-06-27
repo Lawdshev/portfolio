@@ -1,16 +1,16 @@
 {
   "profile": {
     "name": "Okunade Sherif",
-    "position": "Frontend Developer",
-    "positionHighlight": "Frontend",
-    "headline": "I build scalable web applications with clean code and great user experience. Passionate about turning ideas into products that make a difference.",
+    "position": "Senior Software Engineer",
+    "positionHighlight": "Full-Stack",
+    "headline": "I design and build scalable, high-performance systems with Node.js, TypeScript, React, and Next.js — from production APIs to full-stack products across fintech, legal tech, and more.",
     "greeting": "Hello there, I'm",
-    "aboutMeHeader": "A problem solver who loves building.",
-    "aboutMeContent": "I'm a passionate full-stack developer with a love for creating elegant solutions to complex problems. With expertise in modern web technologies, I focus on writing clean, maintainable code that scales.\n\nWhen I'm not coding, you'll find me exploring new technologies, contributing to open source, or sharing knowledge with the developer community.",
-    "cvFileUrl": "/cv/resume.pdf",
+    "aboutMeHeader": "Backend & full-stack engineer building systems that scale.",
+    "aboutMeContent": "Experienced Senior Software Engineer with a strong focus on backend and full-stack development. Skilled in designing and building scalable, high-performance systems using Node.js, TypeScript, Express, NestJS, React, and Next.js.\n\nProven experience delivering production-grade APIs, microservices, and data-intensive platforms across fintech, legal tech, logistics, and hospitality. Strong background in PostgreSQL, MongoDB, Redis, caching strategies, and API design. Passionate about clean code, performance optimization, and building reliable systems that scale.",
+    "cvFileUrl": "/cv/sherif-okunade-2026.pdf",
     "profileImage": "/images/IMG_0760.jpeg",
-    "siteTitle": "Okunade Sherif | Frontend Developer",
-    "siteDescription": "Portfolio of Okunade Sherif - Frontend Developer",
+    "siteTitle": "Okunade Sherif | Senior Software Engineer",
+    "siteDescription": "Portfolio of Okunade Sherif — Senior Software Engineer specializing in backend and full-stack development.",
     "social": {
       "github": "https://github.com/lawdshev",
       "linkedin": "https://www.linkedin.com/in/sherif-okunade-526896229/",
@@ -39,15 +39,26 @@
     { "id": "1", "name": "React", "icon": "/images/tech/react.svg" },
     { "id": "2", "name": "Next.js", "icon": "/images/tech/nextjs.svg" },
     { "id": "3", "name": "TypeScript", "icon": "/images/tech/typescript.svg" },
-    { "id": "4", "name": "Node.js", "icon": "/images/tech/nodejs.svg" },
-    { "id": "5", "name": "Tailwind CSS", "icon": "/images/tech/tailwindcss.svg" },
-    { "id": "6", "name": "PostgreSQL", "icon": "/images/tech/postgresql.svg" },
-    { "id": "7", "name": "MongoDB", "icon": "/images/tech/mongodb.svg" },
-    { "id": "8", "name": "Convex", "icon": "/images/tech/convex.svg" }
+    { "id": "4", "name": "JavaScript", "icon": "/images/tech/javascript.svg" },
+    { "id": "5", "name": "Node.js", "icon": "/images/tech/nodejs.svg" },
+    { "id": "6", "name": "Express", "icon": "/images/tech/express.svg" },
+    { "id": "7", "name": "Tailwind CSS", "icon": "/images/tech/tailwindcss.svg" },
+    { "id": "8", "name": "PostgreSQL", "icon": "/images/tech/postgresql.svg" },
+    { "id": "9", "name": "MongoDB", "icon": "/images/tech/mongodb.svg" },
+    { "id": "10", "name": "Redis", "icon": "/images/tech/redis.svg" },
+    { "id": "11", "name": "Prisma", "icon": "/images/tech/prisma.svg" },
+    { "id": "12", "name": "GraphQL", "icon": "/images/tech/graphql.svg" },
+    { "id": "13", "name": "Convex", "icon": "/images/tech/convex.svg" },
+    { "id": "14", "name": "Socket.io", "icon": "/images/tech/socketio.svg" },
+    { "id": "15", "name": "OpenAI", "icon": "/images/tech/openai.svg" },
+    { "id": "16", "name": "Docker", "icon": "/images/tech/docker.svg" },
+    { "id": "17", "name": "Git", "icon": "/images/tech/git.svg" },
+    { "id": "18", "name": "Vercel", "icon": "/images/tech/vercel.svg" },
+    { "id": "19", "name": "Figma", "icon": "/images/tech/figma.svg" }
   ],
   "stats": [
     {
-      "value": "20+",
+      "value": "24+",
       "label": "Projects Completed",
       "icon": "rocket"
     },
@@ -70,6 +81,105 @@
   "projects": [
     {
       "id": "1",
+      "title": "TransGlide",
+      "description": "International shipping and logistics platform for UK–Nigeria freight — air and sea cargo, door-to-door delivery, customs clearance, and shipment tracking.",
+      "image": "/images/projects/transglide.png",
+      "tags": ["Next.js", "React", "Tailwind CSS"],
+      "demoUrl": "https://transglide.co.uk/",
+      "githubUrl": ""
+    },
+    {
+      "id": "2",
+      "title": "Fussy Recruitment",
+      "description": "Healthcare recruitment agency website for the UK — connecting care providers with skilled professionals through temporary staffing, permanent placements, and RPO services.",
+      "image": "/images/projects/fussy-recruitment.png",
+      "tags": ["Next.js", "React", "Tailwind CSS"],
+      "demoUrl": "https://fussyrecruitment.co.uk/",
+      "githubUrl": ""
+    },
+    {
+      "id": "3",
+      "title": "LawPavilion",
+      "description": "Corporate website for Nigeria's leading legal tech company — showcasing smart legal research tools, AI products, and solutions for practitioners, judiciary, and corporate clients.",
+      "image": "/images/projects/lawpavilion.png",
+      "tags": ["Next.js", "React", "Tailwind CSS"],
+      "demoUrl": "https://www.lawpavilion.com/",
+      "githubUrl": ""
+    },
+    {
+      "id": "4",
+      "title": "NaijaFinda",
+      "description": "A local business marketplace to discover trusted Nigerian goods, services, and businesses — search, compare, and order from verified sellers near you.",
+      "image": "/images/projects/naijafinda.png",
+      "tags": ["Next.js", "React", "Tailwind CSS"],
+      "demoUrl": "https://naijafinda.vercel.app/",
+      "githubUrl": ""
+    },
+    {
+      "id": "5",
+      "title": "Arvist",
+      "description": "AI-powered warehouse quality control and compliance platform — automate damage detection, visual audits, and shipment verification on existing infrastructure.",
+      "image": "/images/projects/arvist.png",
+      "tags": ["Next.js", "React", "AI"],
+      "demoUrl": "https://arvist.ai/",
+      "githubUrl": ""
+    },
+    {
+      "id": "6",
+      "title": "Koret Tags",
+      "description": "Smart digital business cards for entrepreneurs and teams — create, share via QR or link, schedule meetings, and track connections contactlessly.",
+      "image": "/images/projects/korettags.png",
+      "tags": ["Next.js", "React", "Tailwind CSS"],
+      "demoUrl": "https://korettags.com/",
+      "githubUrl": ""
+    },
+    {
+      "id": "7",
+      "title": "PoultryOS",
+      "description": "All-in-one poultry farm management platform — track flocks by batch, monitor expenses, analyze profitability, and collaborate with your team from one dashboard.",
+      "image": "/images/projects/poultryos.png",
+      "tags": ["Next.js", "React", "Express"],
+      "demoUrl": "https://poultry-hub-five.vercel.app/",
+      "githubUrl": ""
+    },
+    {
+      "id": "8",
+      "title": "Happlie",
+      "description": "AI-powered career companion to build portfolios, create CVs, and automate job applications — apply smarter with cloud-synced tools.",
+      "image": "/images/projects/happlie.png",
+      "tags": ["Next.js", "React", "AI"],
+      "demoUrl": "https://happlie.vercel.app/",
+      "githubUrl": ""
+    },
+    {
+      "id": "9",
+      "title": "LawPavilion AI",
+      "description": "AI legal assistant for legal professionals — get answers, research faster, and boost productivity with intelligent legal navigation tools.",
+      "image": "/images/projects/lawpavilion-ai.png",
+      "tags": ["Next.js", "React", "AI"],
+      "demoUrl": "https://law-navigator-staging.vercel.app/",
+      "githubUrl": ""
+    },
+    {
+      "id": "10",
+      "title": "Picshot",
+      "description": "Digital agency website for branding, UI/UX, and motion design — transforming ideas into impactful digital experiences that drive business growth.",
+      "image": "/images/projects/picshot.png",
+      "tags": ["Next.js", "React", "Tailwind CSS"],
+      "demoUrl": "https://pic-shot.vercel.app/",
+      "githubUrl": ""
+    },
+    {
+      "id": "11",
+      "title": "E-Laws Delta State",
+      "description": "Digital platform for the Government of Delta State — browse, search, and access state laws and legal documents online.",
+      "image": "/images/projects/e-laws-delta-state.png",
+      "tags": ["Next.js", "React", "Tailwind CSS"],
+      "demoUrl": "https://e-laws-delta-state.vercel.app/",
+      "githubUrl": ""
+    },
+    {
+      "id": "12",
       "title": "Case Manager",
       "description": "Legal case management platform for Law Pavilion — track cases, documents, and workflows in one place.",
       "image": "/images/projects/case-manager.png",
@@ -78,7 +188,7 @@
       "githubUrl": ""
     },
     {
-      "id": "2",
+      "id": "13",
       "title": "NBA E-stamp",
       "description": "Digital e-stamping platform for the Nigerian Bar Association.",
       "image": "/images/projects/nba-e-stamp.png",
@@ -87,7 +197,7 @@
       "githubUrl": ""
     },
     {
-      "id": "3",
+      "id": "14",
       "title": "MoneyHQ",
       "description": "Personal finance and money management web application.",
       "image": "/images/projects/money-hq.jpeg",
@@ -96,7 +206,7 @@
       "githubUrl": ""
     },
     {
-      "id": "4",
+      "id": "15",
       "title": "Wardboard",
       "description": "Sports coaching and team management platform for athletes and coaches.",
       "image": "/images/projects/wardboard.jpg",
@@ -105,7 +215,7 @@
       "githubUrl": ""
     },
     {
-      "id": "5",
+      "id": "16",
       "title": "Street Food",
       "description": "Food discovery and ordering platform for street food vendors and customers.",
       "image": "/images/projects/street-food.jpeg",
@@ -114,16 +224,7 @@
       "githubUrl": ""
     },
     {
-      "id": "6",
-      "title": "Approve-it",
-      "description": "Workflow approval tool for managing requests and sign-offs.",
-      "image": "/images/projects/approve-it.png",
-      "tags": ["React", "JavaScript"],
-      "demoUrl": "https://approve-it.netlify.app/",
-      "githubUrl": ""
-    },
-    {
-      "id": "7",
+      "id": "17",
       "title": "Accountable",
       "description": "Accounting and financial tracking application.",
       "image": "/images/projects/accountable.jpeg",
@@ -132,25 +233,7 @@
       "githubUrl": ""
     },
     {
-      "id": "8",
-      "title": "P&G",
-      "description": "Brand campaign landing page built for Procter & Gamble.",
-      "image": "/images/projects/pg.png",
-      "tags": ["React", "JavaScript"],
-      "demoUrl": "https://super-pavlova-0ce678.netlify.app/",
-      "githubUrl": ""
-    },
-    {
-      "id": "9",
-      "title": "Examinator",
-      "description": "AI-powered examination and assessment platform.",
-      "image": "/images/projects/examinator.jpeg",
-      "tags": ["React", "JavaScript", "AI"],
-      "demoUrl": "https://examinator-ai.vercel.app/",
-      "githubUrl": ""
-    },
-    {
-      "id": "10",
+      "id": "18",
       "title": "Vatdoc",
       "description": "VAT documentation and compliance management tool.",
       "image": "/images/projects/vatdoc.png",
@@ -159,7 +242,7 @@
       "githubUrl": "https://github.com/Lawdshev/Vatdoc"
     },
     {
-      "id": "11",
+      "id": "19",
       "title": "Verifier",
       "description": "Document and identity verification web application.",
       "image": "/images/projects/verifier.png",
@@ -168,7 +251,7 @@
       "githubUrl": "https://github.com/Lawdshev/Everifyer"
     },
     {
-      "id": "12",
+      "id": "20",
       "title": "Itemify",
       "description": "Inventory and item management application.",
       "image": "/images/projects/itemify.png",
@@ -177,16 +260,7 @@
       "githubUrl": "https://github.com/Lawdshev/Itemify"
     },
     {
-      "id": "13",
-      "title": "Shoklin",
-      "description": "E-commerce and retail platform for online shopping.",
-      "image": "/images/projects/shoklin.png",
-      "tags": ["React", "JavaScript"],
-      "demoUrl": "https://shoklin.onrender.com",
-      "githubUrl": "https://github.com/Lawdshev/shoklin"
-    },
-    {
-      "id": "14",
+      "id": "21",
       "title": "Apple Store Clone",
       "description": "Apple product showcase and store UI clone built with React.",
       "image": "/images/projects/apple-store.png",
@@ -195,16 +269,7 @@
       "githubUrl": "https://github.com/Lawdshev/Apple"
     },
     {
-      "id": "15",
-      "title": "Alicia University",
-      "description": "University website with course information and campus resources.",
-      "image": "/images/projects/alicia-university.png",
-      "tags": ["React", "JavaScript"],
-      "demoUrl": "https://aliciauniversity.netlify.app",
-      "githubUrl": "https://github.com/Lawdshev/Alicia-University"
-    },
-    {
-      "id": "16",
+      "id": "22",
       "title": "Vividioz",
       "description": "Video streaming and media platform.",
       "image": "/images/projects/vividioz.png",
@@ -213,7 +278,7 @@
       "githubUrl": "https://github.com/rash1234567/NEWVIVIDIO"
     },
     {
-      "id": "17",
+      "id": "23",
       "title": "Adserve",
       "description": "Advertising and campaign management dashboard.",
       "image": "/images/projects/adserve.png",
@@ -222,31 +287,13 @@
       "githubUrl": "https://github.com/Lawdshev/adserve"
     },
     {
-      "id": "18",
+      "id": "24",
       "title": "AppraiseMe",
       "description": "Employee performance appraisal and feedback tool.",
       "image": "/images/projects/appraiseme.png",
       "tags": ["React", "JavaScript"],
       "demoUrl": "https://appraiseMe.netlify.app/",
       "githubUrl": "https://github.com/Lawdshev/appraise"
-    },
-    {
-      "id": "19",
-      "title": "CountriesQQ",
-      "description": "Interactive countries explorer with flags, data, and search.",
-      "image": "/images/projects/countriesqq.png",
-      "tags": ["React", "JavaScript", "API"],
-      "demoUrl": "https://countriesQQ.onrender.com",
-      "githubUrl": "https://github.com/Lawdshev/vatebra_test"
-    },
-    {
-      "id": "20",
-      "title": "Unshelled",
-      "description": "Full-stack web application with a modern React frontend.",
-      "image": "/images/projects/unshelled.png",
-      "tags": ["React", "JavaScript"],
-      "demoUrl": "https://unshelled-client.onrender.com/",
-      "githubUrl": "https://github.com/Lawdshev/unshelled-frontend"
     }
   ],
   "skills": [
@@ -257,7 +304,10 @@
         "React",
         "Next.js",
         "TypeScript",
-        "Tailwind CSS"
+        "JavaScript",
+        "Tailwind CSS",
+        "HTML & CSS",
+        "GSAP"
       ]
     },
     {
@@ -266,6 +316,8 @@
       "items": [
         "Node.js",
         "Express",
+        "REST APIs",
+        "GraphQL",
         "Convex",
         "Socket.io"
       ]
@@ -275,20 +327,71 @@
       "category": "Database",
       "items": [
         "PostgreSQL",
-        "MongoDB"
+        "MongoDB",
+        "Redis",
+        "Prisma"
       ]
     },
     {
       "id": "4",
-      "category": "Tools",
+      "category": "AI & Integrations",
+      "items": [
+        "OpenAI",
+        "LLM Integrations",
+        "AI-powered Features"
+      ]
+    },
+    {
+      "id": "5",
+      "category": "Tools & DevOps",
       "items": [
         "Git",
         "GitHub",
+        "Docker",
+        "Vercel",
+        "Netlify",
         "VS Code",
         "Postman",
         "Figma"
       ]
     }
   ],
-  "experience": []
+  "experience": [
+    {
+      "id": "1",
+      "period": "Jan 2024 — Present",
+      "title": "Software Engineer at Peerless Software",
+      "description": "Developed and maintained backend services for Sterling Bank's core banking platform (SEABAAS). Built secure REST APIs with Node.js, Express, and TypeScript, and designed PostgreSQL schemas for high-volume financial transactions. Implemented structured error handling, logging, and monitoring for mission-critical systems."
+    },
+    {
+      "id": "2",
+      "period": "Apr 2023 — Dec 2023",
+      "title": "Senior Software Engineer at LawPavilion",
+      "description": "Architected scalable backend services for legal technology platforms. Designed RESTful and GraphQL APIs for document management, contract analysis, and AI-powered features. Optimized PostgreSQL and Redis caching, mentored junior engineers, and containerized services with Docker."
+    },
+    {
+      "id": "3",
+      "period": "Jan 2023 — Apr 2023",
+      "title": "Full-Stack Engineer at Innovacao",
+      "description": "Architected backend services for a food service and hotel management system using Node.js, Express, and NestJS. Built microservices for bookings, inventory, and orders, integrated Flutterwave and Paystack, and implemented real-time updates with WebSockets."
+    },
+    {
+      "id": "4",
+      "period": "Jun 2022 — Dec 2022",
+      "title": "Full-Stack Engineer at AccountableTechServe",
+      "description": "Built the core frontend of MONEHQ with Next.js and maintained Accountable's Express.js and GraphQL backend. Enhanced API integrations, resolved backend bottlenecks, and delivered new features in close collaboration with stakeholders."
+    },
+    {
+      "id": "5",
+      "period": "Oct 2021 — Jun 2022",
+      "title": "Frontend Engineer at Vatebra Ltd",
+      "description": "Collaborated on SaaS applications using agile methodology. Built views for .NET MVC applications, worked on role management, performance management, and task tracking systems, and led a team of interns on a Memo and Approval system."
+    },
+    {
+      "id": "6",
+      "period": "Jun 2020 — Present",
+      "title": "Volunteer Team Lead at RashDevs",
+      "description": "Led and mentored backend development teams on learning projects using Node.js, Express, and PostgreSQL. Facilitated sessions on API design, database optimization, and deployment while guiding developers through code reviews and pair programming."
+    }
+  ]
 }
