@@ -138,8 +138,8 @@ export default function AboutSkillsExperience({
             <p className="text-xs font-semibold tracking-widest text-slate-400">EXPERIENCE</p>
             <h2 className="mt-2 text-xl font-bold text-slate-900 sm:text-2xl">My Journey</h2>
             <p className="mt-3 max-w-md text-sm leading-relaxed text-slate-600">
-              Tap a role to read more. {experience.length} positions across fintech, legal tech,
-              hospitality, and community leadership.
+              Tap a role to read more. {experience.length} positions across fintech, legal tech, AI,
+              and community leadership.
             </p>
           </div>
 

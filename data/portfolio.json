@@ -2,15 +2,15 @@
   "profile": {
     "name": "Okunade Sherif",
     "position": "Senior Software Engineer",
-    "positionHighlight": "Full-Stack",
-    "headline": "I design and build scalable, high-performance systems with Node.js, TypeScript, React, and Next.js — from production APIs to full-stack products across fintech, legal tech, and more.",
+    "positionHighlight": "Frontend",
+    "headline": "I build modern, responsive, and performant web applications with React, Next.js, and TypeScript — from fintech and legal tech to AI-powered enterprise products.",
     "greeting": "Hello there, I'm",
-    "aboutMeHeader": "Backend & full-stack engineer building systems that scale.",
-    "aboutMeContent": "Experienced Senior Software Engineer with a strong focus on backend and full-stack development. Skilled in designing and building scalable, high-performance systems using Node.js, TypeScript, Express, NestJS, React, and Next.js.\n\nProven experience delivering production-grade APIs, microservices, and data-intensive platforms across fintech, legal tech, logistics, and hospitality. Strong background in PostgreSQL, MongoDB, Redis, caching strategies, and API design. Passionate about clean code, performance optimization, and building reliable systems that scale.",
-    "cvFileUrl": "/cv/sherif-okunade-2026.pdf",
+    "aboutMeHeader": "Frontend engineer crafting interfaces that scale.",
+    "aboutMeContent": "Experienced Senior Frontend Engineer specializing in building modern, responsive, and performant web applications. Expert in React, Next.js, TypeScript, and modern frontend tooling.\n\nProven track record delivering production-grade user interfaces across fintech, legal tech, and enterprise domains. Strong expertise in component architecture, state management, performance optimization, accessibility, and creating intuitive user experiences. Passionate about clean code, UI/UX best practices, and building scalable frontend applications that delight users.",
+    "cvFileUrl": "/cv/sherif-okunade-software-developer-2026.pdf",
     "profileImage": "/images/IMG_0760.jpeg",
     "siteTitle": "Okunade Sherif | Senior Software Engineer",
-    "siteDescription": "Portfolio of Okunade Sherif — Senior Software Engineer specializing in backend and full-stack development.",
+    "siteDescription": "Portfolio of Okunade Sherif — Senior Software Engineer specializing in React, Next.js, and modern frontend development.",
     "social": {
       "github": "https://github.com/lawdshev",
       "linkedin": "https://www.linkedin.com/in/sherif-okunade-526896229/",
@@ -359,39 +359,45 @@
   "experience": [
     {
       "id": "1",
-      "period": "Jan 2024 — Present",
-      "title": "Software Engineer at Peerless Software",
-      "description": "Developed and maintained backend services for Sterling Bank's core banking platform (SEABAAS). Built secure REST APIs with Node.js, Express, and TypeScript, and designed PostgreSQL schemas for high-volume financial transactions. Implemented structured error handling, logging, and monitoring for mission-critical systems."
+      "period": "Sep 2025 — Present",
+      "title": "Full-Stack Engineer at Arvist USA",
+      "description": "Developed AI-powered web applications with React, Node.js, Express, and TypeScript. Integrated LLMs into shipment inspection workflows, built asynchronous processing pipelines for long-running AI tasks, and delivered document preview, annotation, and export features for PDFs and Office files."
     },
     {
       "id": "2",
-      "period": "Apr 2023 — Dec 2023",
-      "title": "Senior Software Engineer at LawPavilion",
-      "description": "Architected scalable backend services for legal technology platforms. Designed RESTful and GraphQL APIs for document management, contract analysis, and AI-powered features. Optimized PostgreSQL and Redis caching, mentored junior engineers, and containerized services with Docker."
+      "period": "Jan 2024 — Sep 2025",
+      "title": "Frontend Engineer at Peerless Software",
+      "description": "Developed frontend applications for Sterling Bank's core banking platform (SEABAAS) using React and TypeScript. Built responsive UI for financial transactions and account management, implemented React Query for data fetching and real-time updates, and optimized performance through code splitting and lazy loading."
     },
     {
       "id": "3",
-      "period": "Jan 2023 — Apr 2023",
-      "title": "Full-Stack Engineer at Innovacao",
-      "description": "Architected backend services for a food service and hotel management system using Node.js, Express, and NestJS. Built microservices for bookings, inventory, and orders, integrated Flutterwave and Paystack, and implemented real-time updates with WebSockets."
+      "period": "Apr 2023 — Dec 2023",
+      "title": "Senior Frontend Engineer at LawPavilion",
+      "description": "Led frontend development for legal technology platforms with React, Next.js, and TypeScript. Architected component libraries and design systems for document management and AI-powered features, established frontend best practices, and mentored junior engineers on React patterns and performance optimization."
     },
     {
       "id": "4",
-      "period": "Jun 2022 — Dec 2022",
-      "title": "Full-Stack Engineer at AccountableTechServe",
-      "description": "Built the core frontend of MONEHQ with Next.js and maintained Accountable's Express.js and GraphQL backend. Enhanced API integrations, resolved backend bottlenecks, and delivered new features in close collaboration with stakeholders."
+      "period": "Jan 2023 — Apr 2023",
+      "title": "Senior Frontend Engineer at Innovacao",
+      "description": "Built responsive dashboards for bookings, inventory, orders, and customer data using React and TypeScript. Implemented real-time updates with WebSockets, integrated Flutterwave and Paystack checkout flows, and created reusable component libraries for high-traffic hospitality operations."
     },
     {
       "id": "5",
+      "period": "Jun 2022 — Dec 2022",
+      "title": "Full-Stack Engineer at AccountableTechServe",
+      "description": "Single-handedly developed the core frontend of MONEHQ with Next.js and maintained Accountable's Express.js and GraphQL backend. Designed UI components for financial data management, enhanced API integrations, and delivered features in close collaboration with stakeholders."
+    },
+    {
+      "id": "6",
       "period": "Oct 2021 — Jun 2022",
       "title": "Frontend Engineer at Vatebra Ltd",
       "description": "Collaborated on SaaS applications using agile methodology. Built views for .NET MVC applications, worked on role management, performance management, and task tracking systems, and led a team of interns on a Memo and Approval system."
     },
     {
-      "id": "6",
+      "id": "7",
       "period": "Jun 2020 — Present",
       "title": "Volunteer Team Lead at RashDevs",
-      "description": "Led and mentored backend development teams on learning projects using Node.js, Express, and PostgreSQL. Facilitated sessions on API design, database optimization, and deployment while guiding developers through code reviews and pair programming."
+      "description": "Led and mentored frontend development teams building modern web applications with React, Next.js, and TypeScript. Facilitated sessions on component architecture, state management, UI/UX best practices, and performance optimization through code reviews and pair programming."
     }
   ]
 }
